@@ -11,7 +11,6 @@ import java.util.List;
 import java.util.Optional;
 
 
-@Repository
 public class OracleBookRepository implements BookRepository {
 
     private final DataSource dataSource;

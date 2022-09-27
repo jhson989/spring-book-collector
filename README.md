@@ -9,8 +9,8 @@ Book Collector made with Spring Framework
 
 ## 2. Read Books
 - curl [IP]
-  - curl http://152.67.210.115/list
+  - curl http://000.000.000.000/list
 
 ## 2. Create a Book
 - curl -d "title=[title]&content=[content]" -X POST [ID]
-  - ex) curl -d "title=how to use curl&content=I know how to use curl" -X POST http://152.67.210.115/create
+  - ex) curl -d "title=how to use curl&content=I know how to use curl" -X POST http://000.000.000.000/create

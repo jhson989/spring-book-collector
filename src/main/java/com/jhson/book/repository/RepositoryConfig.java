@@ -15,7 +15,8 @@ public class RepositoryConfig {
 
     @Bean
     public BookRepository bookRepository() {
-        return new OracleBookRepository(dataSource);
+        //return new OracleBookRepository(dataSource);
+        return new OracleTemplateBookRepository(dataSource);
     }
 
 }
